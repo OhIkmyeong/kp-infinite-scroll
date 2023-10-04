@@ -24,6 +24,10 @@
     animation: move-infinite-scroll var(--data-speed) linear infinite backwards reverse;
 }
 
+.ifslider:hover{
+    animation-play-state: paused;
+}
+
 /* 📍[item] */
 .ifslider-item{
     padding:.8em 2em;
