@@ -1,0 +1,25 @@
+@charset "utf-8";
+:root{
+    --bg:#1c1c28;
+    
+    --f1:#fff;
+
+    --mask:linear-gradient(90deg,transparent,#fff 10%,#fff 90%,transparent);
+
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+li{list-style-type:none;}
+
+html,body{
+    background:var(--bg);
+    font-size:18px;
+    color:var(--f1);
+}
+
+body{
+    display:flex;flex-flow:column nowrap;
+    justify-content:center;align-items:center;
+    gap:40px;
+    min-height:100vh;
+}
